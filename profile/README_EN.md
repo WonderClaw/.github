@@ -1,81 +1,53 @@
-# ClawCV — WonderCV AI Agent 💼✨
+# WonderClaw — WonderCV AI Skills Lab 🦞✨
 
 [简体中文](./README.md) | [English](./README_EN.md)
 
-> **ClawCV** is the official suite of AI Career Skills from [WonderCV](https://www.wondercv.com). Powered by **MCP (Model Context Protocol)**, it transforms your AI Agents (Claude Code, Cursor, Windsurf) into elite career development experts.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
-[![Node.js: 18+](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
-[![Protocol: MCP](https://img.shields.io/badge/Protocol-MCP-blue.svg)](https://modelcontextprotocol.io/)
-[![GitHub stars](https://img.shields.io/github/stars/WonderClaw/clawcv?style=social)](https://github.com/WonderClaw/clawcv)
+> **WonderClaw** is the AI Open Source Laboratory initiated by [WonderCV](https://www.wondercv.com). We are committed to building **AI Skills** as **precise, powerful, and professional** as a lobster's claw, arming your AI Agents with the ultimate career tools.
 
 ---
 
-## 🚀 Core Repositories
+## 💡 The WonderClaw Philosophy
 
-- **[clawcv](https://github.com/WonderClaw/clawcv)** : 📥 **User Guide & Integration Manual**. If you want to use ClawCV in your own AI tools, start here.
-- **[clawcv-skills](https://github.com/WonderClaw/clawcv-skills)** : 🛠️ **Core MCP Server Implementation**. The underlying logic for resume analysis, rewriting, matching, and PDF exporting.
-
----
-
-## 🚀 Core Skills
-
-| Skill | Description |
-| :--- | :--- |
-| **Analyze Resume** | Professional 5-dimension scoring (Clarity, Relevance, Impact, Structure, Completeness) to identify issues. |
-| **Smart Rewrite** | Rewrite work experiences into high-impact expressions (STAR method) based on 1.6M words of industry data. |
-| **Job Matching** | Deep evaluation against JDs, identifying key gaps and core keywords for ATS optimization. |
-| **One-Page PDF** | Automatically organize and export HR-recommended one-page PDFs with 4 professional templates. |
-| **AI Mentor** | 8 career modules including Interview Q&A, Career Planning, Salary Negotiation, and Multi-version Resumes. |
+In the age of AI, general models require specialized "skill modules" to handle complex professional tasks. **WonderClaw** focuses on deconstructing WonderCV's professional career methodology into pluggable **AI Skills**, enabling every developer and job seeker to gain the practical power of top HR experts within their favorite editors or terminals (e.g., Claude Code, Codex CLI).
 
 ---
 
-## 📦 Quick Start
+## 🚀 Core Open Source Project
 
-Activate **ClawCV** in your AI tools with just a few steps.
-
-### 1. Install
-```bash
-npm install -g clawcv
-```
-
-### 2. Configure
-Add to **Claude Code** (`~/.claude/settings.json`) or **Cursor** (MCP Settings):
-```json
-{
-  "mcpServers": {
-    "clawcv": {
-      "command": "clawcv"
-    }
-  }
-}
-```
-
-### 3. Usage
-Just ask your AI:
-- *"Analyze this resume and tell me what's wrong."*
-- *"Rewrite my work experience to sound more like a Product Manager."*
-- *"Export this resume as a one-page PDF."*
+### [clawcv](https://github.com/WonderClaw/clawcv)
+**ClawCV** is our all-in-one AI career skill set entry point for developers.
+- 🦞 **One-Click Assembly**: Rapidly install all Career Skills via `npx clawcv`.
+- 📖 **Configuration Guides**: Detailed setup manuals for API Keys in major AI terminals such as Claude Code and Codex CLI.
+- 🛠️ **Full Skill Library**: Six core modules including resume analysis, rewriting, job matching, PDF exporting, AI mentoring, and account management.
 
 ---
 
-## 🔗 Ecosystem
+## 🛠️ The Sharp Edge (Technical Depth)
 
-- **[clawcv](https://github.com/WonderClaw/clawcv)** — User Manual & Quick Start Guide
-- **[clawcv-skills](https://github.com/WonderClaw/clawcv-skills)** — Core MCP Server implementation
-- **[Official Website](https://www.wondercv.com/claw)** — Get Pioneer benefits and full services
+Just as a lobster's claw possesses unmatched grip, **WonderClaw** provides AI Agents with unmatched professional depth:
 
----
-
-## 🌟 Pioneer Program
-
-The first 100 users to link their WonderCV account become **Pioneers** and enjoy:
-- 20 deep analyses + 10 smart rewrites per day.
-- Access to one-page PDF generation.
-- Benefits active until the product officially starts charging (est. 3-6 months).
-
-Just say **"I want to link my account"** to your AI to start.
+*   **Professional Expression Models**: Precisely capture the highlights of your experience and transform them into **STAR method** narratives based on a **1.6-million-word** industry corpus.
+*   **Deep ATS Penetration**: Built-in keyword density detection ensures your resume is accurately recognized by corporate screening systems.
+*   **HR-Perspective Error Correction**: Like a microscope, it identifies over **20+ types** of hidden logical and formatting flaws in resumes.
+*   **Skill-First**: Modular Skill design allows precise activation through natural language or `/` commands in AI conversations.
 
 ---
 
-© 2026 [WonderCV](https://www.wondercv.com) - Professional Resume Builder Platform
+## 🤖 Supported Environments
+
+| Claude Code | Codex CLI | Other Local Skill Hosts |
+| :---: | :---: | :---: |
+| ✅ | ✅ | ✅ |
+
+---
+
+## 🌟 3 Seconds to Arm Your AI (Quick Setup)
+
+1. **Get Key**: Register at [wondercv.com/clawcv](https://wondercv.com/clawcv) to obtain your API Key.
+2. **Assemble Skills**: Run `npx clawcv` to assemble your WonderClaw Skills.
+3. **Inject Energy**: Set your `WONDERCV_API_KEY` environment variable.
+4. **Get to Work**: Say **"Analyze this resume"** or **"Rewrite my work experience"** to your AI.
+
+---
+
+© 2026 [WonderClaw](https://github.com/WonderClaw) | Powering your career with [WonderCV](https://www.wondercv.com)
