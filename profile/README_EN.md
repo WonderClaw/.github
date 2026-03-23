@@ -1,4 +1,4 @@
-# WonderClaw — WonderCV AI Skills Lab 🦞✨
+# WonderClaw — WonderCV AI Lobster Lab 🦞✨
 
 [简体中文](./README.md) | [English](./README_EN.md)
 

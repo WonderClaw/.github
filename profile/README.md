@@ -1,4 +1,4 @@
-# 超级龙虾 WonderClaw — WonderCV AI 技能实验室 🦞✨
+# 超级龙虾 WonderClaw — WonderCV AI 龙虾实验室 🦞✨
 
 [简体中文](./README.md) | [English](./README_EN.md)
 
